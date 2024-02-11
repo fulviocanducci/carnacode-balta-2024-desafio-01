@@ -1,0 +1,69 @@
+@font-face {
+  font-family: InterSemiBold;
+  src: url(/css/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: InterMedium;
+  src: url(/css/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: InterRegular;
+  src: url(/css/fonts/Inter-Regular.ttf);
+}
+
+.container-all {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+}
+
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: ¨0px solid #222;
+}
+
+.title {
+  font-family: InterSemiBold;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+
+.cols {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.top-5 {
+  margin-top: 5px;
+}
+
+.top-10 {
+  margin-top: 10px;
+}
+
+.top-20 {
+  margin-top: 20px;
+}
+
+.border-1 {
+  border: 1px solid #efefef;
+}
