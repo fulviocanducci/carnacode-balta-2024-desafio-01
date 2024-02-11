@@ -7,20 +7,29 @@
     <link rel="stylesheet" href="css/app.css">
     <title>IMC</title>
 </head>
-
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+    <div class="container">
+        <div class="title">
+            Cálculo de IMC
+        </div>
+        <div class="container-elements">
+            <input class="inputs" name="Altura" id="Altura" placeholder="Altura" />
+        </div>
+        <div class="container-elements">
+            <input class="inputs" name="Peso" id="Peso" placeholder="Peso"/>
+        </div>
+        <div class="container-elements">
+            <input class="inputs" name="Sexo" id="Sexo" placeholder="Sexo" />
+        </div>
+        <div class="container-elements"> 
+            <label for="Tenho" class="labelcheck"><input id="Tenho" type="checkbox"/> Eu tenho 65 ou mais.</label>
+        </div>
+        <div class="container-elements">
+            <button type="button" class="btn-imc">Calcular meu IMC</button>
+        </div>
+        <div class="container-elements">
+            <button type="button" class="btn-under">Entenda o cálculo</button>
+        </div>
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
 </body>
-
 </html>
