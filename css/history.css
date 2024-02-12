@@ -19,10 +19,13 @@
 }
 
 .container {
+  flex: 1;
+  flex-shrink: 1;
   display: grid;
   grid-template-columns: 70px 1fr;
-  width: 343px;
+  width: 345px;
   align-content: center;
+  text-align: center;
   align-items: flex-start;
 }
 
@@ -38,6 +41,8 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgba(94, 93, 93, 0.25);
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .boxtext {
@@ -71,4 +76,10 @@
   text-align: left;
   align-content: center;
   justify-content: center;
+}
+
+.container-before {
+  margin: 0 auto;
+  text-align: center;
+  width: 345px;
 }
